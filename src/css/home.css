@@ -1,0 +1,63 @@
+#root > div > .table {
+  background-color: rgba(82, 77, 88, 0.335);
+}
+.title {
+  margin: 0 0 20px 0;
+}
+.active {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  margin: 5px 20px 10px 10px;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.active:hover {
+  width: 80px;
+  height: 35px;
+  font-size: 25px;
+  background-color: rgb(245, 7, 7);
+  color: rgb(19, 18, 18);
+}
+table {
+  margin: 0 auto;
+  background-color: #fff;
+}
+th {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+th > h2 {
+  margin: 18px 0 0 0;
+}
+tr {
+  border-top: 2px double #000;
+  border-bottom: 2px double #000;
+  border-right: 2px double #000;
+}
+th,
+td {
+  background-color: #fff;
+  text-align: center;
+  width: 180px;
+  height: 50px;
+  border: 2px double #000;
+}
+.title {
+  background-color: #000;
+}
+p {
+  text-align: center;
+  font-size: 2em;
+  padding: 25px;
+  color: #fff;
+}
+.title > div > button:first-child {
+  margin: 0 75% 30px 145px;
+}

@@ -1,0 +1,53 @@
+.searchBox {
+  display: grid;
+  place-items: center;
+}
+.searchBox > div {
+  width: 800px;
+  height: 800px;
+  display: grid;
+  place-items: center;
+  background-color: bisque;
+  border-radius: 15px;
+  margin: 75px 0 0 0;
+}
+h1 {
+  font-size: 2rem;
+}
+.searchExample > h2 {
+  font-size: 18px;
+  margin: 10px 0 0 50px;
+}
+.searchExample > h3 {
+  font-size: 25px;
+  margin: 0 0 20px 0;
+}
+.searchExample > h2 > span {
+  margin: 0 0 0 10px;
+  font-size: 20px;
+}
+.searchBox > div > form > input {
+  width: 20em;
+  margin: 0 10px 0 0;
+  height: 23px;
+}
+.searchBox > div > form > button {
+  background-color: rgba(97, 64, 25, 0.534);
+  font-size: large;
+  color: #fff;
+}
+.searchResult > button {
+  margin: 50px 0 70px 0;
+  width: 120px;
+  height: 40px;
+  background-color: rgba(97, 64, 25, 0.534);
+  font-size: large;
+  color: #fff;
+}
+.searchResult + button {
+  width: 180px;
+  height: 50px;
+  background-color: rgba(98, 87, 36, 0.65);
+  color: #fff;
+  font-size: large;
+}
